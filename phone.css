@@ -4,7 +4,7 @@ button { width: 200px; height: 60px; background: gray; color: black; }
 tab-buttons. { margin: 0px; }
 
 /* style dialer buttons */
-dialer-buttons. { margin: 10px; font-size:large; text-align: center; }
+dialer-buttons. { margin: 10px; font-size: large; text-align: center; color: silver}
 
 /* make all tags with the "cool" class name have blue text */
 .cool { color: blue; }

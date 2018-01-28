@@ -1,5 +1,9 @@
 // Input, Interaction, and Accessibility. Spring 2018, Assignment 1
 
+
+/* TAB CONTROL */
+
+
 //Hide all but the default tab
 $(document).ready(function() { //do this when the document is loaded
     $("#dialerContent").show(); //show the HTML element with ID "dialer"
@@ -27,4 +31,12 @@ $("#add").click(function() { //when "add contacts" is clicked
     $("#dialerContent").hide(); //hide dial element
     $("#contactsContent").hide();
     $("#addContent").show();
+});
+
+
+/* DIALER BUTTON CONTROL */
+//When button "id" is pressed, perform relevant action on dialer text input field
+$("#dialer-b1").click(function() {
+    x = ("#dialer-box").value;
+    ("#dialer-box").value = x+"1";
 });
