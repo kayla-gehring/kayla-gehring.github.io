@@ -1,5 +1,5 @@
 /* make all buttons 20x40 pixels with black text, gray background, 10 pixel margin */
-button { width: 200px; height: 60px; background: gray; color: black; }
+button { background: aqua; color: black; }
 /* make all buttons in class tab-buttons have no margin */
 tab-buttons. { margin: 0px; }
 
