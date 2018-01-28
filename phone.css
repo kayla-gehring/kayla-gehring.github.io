@@ -1,5 +1,10 @@
 /* make all buttons 20x40 pixels with black text, gray background, 10 pixel margin */
-button { width: 20px; height: 40px; background: gray; color: black; margin: 10px; }
+button { width: 80px; height: 40px; background: gray; color: black; }
+/* make all buttons in class tab-buttons have no margin */
+tab-buttons. { margin: 0px; }
+
+/* style dialer buttons */
+dialer-buttons. { margin: 10px; font-size:large; text-align: center; }
 
 /* make all tags with the "cool" class name have blue text */
 .cool { color: blue; }

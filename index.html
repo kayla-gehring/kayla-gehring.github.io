@@ -21,9 +21,9 @@
     <div class="pure-button-group" role="group" id="tabs">
 
       <!-- buttons/tabs -->
-      <button class="pure-button" id="dialer">Call</button>
-      <button class="pure-button" id="contacts">Contacts</button>
-      <button class="pure-button" id="add">Add Contact</button>
+      <button class="pure-button tab-buttons" id="dialer">Call</button>
+      <button class="pure-button tab-buttons" id="contacts">Contacts</button>
+      <button class="pure-button tab-buttons" id="add">Add Contact</button>
 
     </div>
     <!-- Tab contents -->
@@ -31,7 +31,38 @@
 
       <!-- Tab 1 Contents: Dialer -->
       <div class="tabContents" id="dialerContent">
-        Phone interface coming soon.
+        <form class="pure-form">
+
+          <!-- Dial Input Box -->
+          <label for="dialer-box">Enter Phone Number</label>
+          <input class="dialer-content" id="dialer-box">
+
+          <!-- Dial Buttons -->
+          <table class="tabContents dialer-buttons">
+
+            <tr> <!-- Buttons #1-3 -->
+              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b1">1</button>
+              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b2">2</button>
+              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b3">3</button>
+            <tr> <!-- Buttons #4-6 -->
+              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b4">4</button>
+              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b5">5</button>
+              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b6">6</button>
+            <tr> <!-- Buttons #7-9 -->
+              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b7">7</button>
+              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b8">8</button>
+              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b9">9</button>
+            <tr> <!-- Buttons *,0,# -->
+              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b*">*</button>
+              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b0">0</button>
+              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b#">#</button>
+          </table>
+
+          <!-- Action Buttons -->
+          <button class="tabContents action-buttons pure-button pure-button-primary" id="dial-button">Dial Number</button>
+          <button class="tabContents action-buttons pure-button pure-button-primary" id="clear-button">Clear Input</button>
+
+
       </div>
 
       <!-- Tab 2 Contents: Contact List -->
@@ -44,7 +75,7 @@
       <!-- text box -->
       <form class="pure-form pure-form-stacked">
         <label for="name">Name</label>
-        <input class="className" id="idName">
+        <input class="addContacts-content" id="idName">
       </form>
 
       </div>
