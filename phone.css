@@ -1,0 +1,8 @@
+/* make all buttons 20x40 pixels with black text, gray background, 10 pixel margin */
+button { width: 20px; height: 40px; background: gray; color: black; margin: 10px; }
+
+/* make all tags with the "cool" class name have blue text */
+.cool { color: blue; }
+
+/* make the button with ID "delete" red */
+#delete { background: red; }
