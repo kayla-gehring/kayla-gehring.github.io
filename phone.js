@@ -35,8 +35,7 @@ $("#add").click(function() { //when "add contacts" is clicked
 
 
 /* DIALER BUTTON CONTROL */
-//When button "id" is pressed, perform relevant action on dialer text input field
-$("#dialer-b1").click(function() {
-    x = ("#dialer-box").value;
-    ("#dialer-box").value = x+"1";
-});
+//When button is pressed, perform relevant action on dialer text input field
+function dialInputNumber(element){
+    $("#dialer-box").val($("#dialer-box").val()+element.value);
+}

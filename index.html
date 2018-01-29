@@ -35,28 +35,22 @@
 
           <!-- Dial Input Box -->
           <label for="dialer-box">Enter Phone Number</label>
-          <input class="dialer-content" id="dialer-box">
+          <input type="text" class="dialer-content" id="dialer-box" placeholder="123-456-7890" value="">
 
           <!-- Dial Buttons -->
-          <table class="tabContents dialer-buttons">
-
-            <tr> <!-- Buttons #1-3 -->
-              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b1">1</button>
-              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b2">2</button>
-              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b3">3</button>
-            <tr> <!-- Buttons #4-6 -->
-              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b4">4</button>
-              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b5">5</button>
-              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b6">6</button>
-            <tr> <!-- Buttons #7-9 -->
-              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b7">7</button>
-              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b8">8</button>
-              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b9">9</button>
-            <tr> <!-- Buttons *,0,# -->
-              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b*">*</button>
-              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b0">0</button>
-              <td><button class="tabContents dialer-buttons pure-button" id="dialer-b#">#</button>
-          </table>
+          <input type="button" class="dialer-buttons" id="b1" value="1" onClick=dialInputNumber(this);>
+          <input type="button" class="dialer-buttons" id="b2" value="2" onClick=dialInputNumber(this);>
+          <input type="button" class="dialer-buttons" id="b1" value="3" onClick=dialInputNumber(this);>
+          <input type="button" class="dialer-buttons" id="b1" value="4" onClick=dialInputNumber(this);>
+          <input type="button" class="dialer-buttons" id="b1" value="5" onClick=dialInputNumber(this);>
+          <input type="button" class="dialer-buttons" id="b1" value="6" onClick=dialInputNumber(this);>
+          <input type="button" class="dialer-buttons" id="b1" value="7" onClick=dialInputNumber(this);>
+          <input type="button" class="dialer-buttons" id="b1" value="8" onClick=dialInputNumber(this);>
+          <input type="button" class="dialer-buttons" id="b1" value="9" onClick=dialInputNumber(this);>
+          <input type="button" class="dialer-buttons" id="b1" value="*" onClick=dialInputNumber(this);>
+          <input type="button" class="dialer-buttons" id="b1" value="0" onClick=dialInputNumber(this);>
+          <input type="button" class="dialer-buttons" id="b1" value="#" onClick=dialInputNumber(this);>
+        </form>
 
           <!-- Action Buttons -->
           <button class="tabContents action-buttons pure-button pure-button-primary" id="dial-button">Dial Number</button>
