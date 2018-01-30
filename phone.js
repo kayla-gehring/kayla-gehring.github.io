@@ -24,6 +24,9 @@ $("#contacts").click(function() { //when "contacts" is clicked
     $("#dialerContent").hide();
     $("#contactsContent").show();
     $("#addContent").hide();
+
+    //also load buttons from a list of contacts
+    listContacts();
 });
 
 //When the add contact button is clicked, hide the contacts and dialer tabs
@@ -36,6 +39,18 @@ $("#add").click(function() { //when "add contacts" is clicked
 
 /* DIALER BUTTON CONTROL */
 //When button is pressed, perform relevant action on dialer text input field
-function dialInputNumber(element){
+function inputNum(element){
     $("#dialer-box").val($("#dialer-box").val()+element.value);
 }
+
+
+//Generate a list of contacts
+//list of names generated at listofrandomnames.com
+var contacts = ["Archie Reeb", "Marc Flavell", "Kasey Burr", "Katharyn Lanford", "Sharilyn Krohn", "Eda Brinkmann", "Neida Stlouis", "Ranee Maltby", "Tod Bottomley","Margit Mazzola"];
+
+/*https://stackoverflow.com/questions/20060915/javascript-how-do-you-set-the-value-of-a-button-with-an-element-from-an-array referenced to make this function */
+function listContacts(){
+    for(var i=0; i < contacts.length; i++){
+        $("contactsContent").write("<button class='contactsList pure-button' value='" + contacts[i] + "'>");
+    }
+};
