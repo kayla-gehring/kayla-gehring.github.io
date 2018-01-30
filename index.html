@@ -38,8 +38,23 @@
           <input type="text" class="dialer-content" id="dialer-box" placeholder="123-456-7890" value="">
           </form>
 
-          <!-- Dial Buttons -->
-          <button form="dialerForm" class="number-buttons pure-button" id="b3" value="3" onclick="inputNum(this)">
+        <!-- Dial Buttons -->
+        <div class="dialer-content" id="buttons1-3">
+          <button form="dialerForm" class="number-buttons pure-button" id="b1" value="1" onclick="inputNum(this)">1</button>
+          <button form="dialerForm" class="number-buttons pure-button" id="b2" value="2" onclick="inputNum(this)">2</button>
+          <button form="dialerForm" class="number-buttons pure-button" id="b3" value="3" onclick="inputNum(this)">3</button>
+        </div>
+        <div class="dialer-content" id="buttons4-6">
+          <button form="dialerForm" class="number-buttons pure-button" id="b4" value="4" onclick="inputNum(this)">4</button>
+          <button form="dialerForm" class="number-buttons pure-button" id="b5" value="5" onclick="inputNum(this)">5</button>
+          <button form="dialerForm" class="number-buttons pure-button" id="b6" value="6" onclick="inputNum(this)">6</button>
+        </div>
+        <div class="dialer-content" id="buttons*0#">
+          <button form="dialerForm" class="number-buttons pure-button" id="b*" value="*" onclick="inputNum(this)">*</button>
+          <button form="dialerForm" class="number-buttons pure-button" id="b0" value="0" onclick="inputNum(this)">0</button>
+          <button form="dialerForm" class="number-buttons pure-button" id="b#" value="#" onclick="inputNum(this)">#</button>
+        </div>
+
 
           <!-- Action Buttons -->
           <button class="tabContents action-buttons pure-button pure-button-primary" id="dial-button">Dial Number</button>

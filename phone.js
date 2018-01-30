@@ -44,13 +44,14 @@ function inputNum(element){
 }
 
 
-//Generate a list of contacts
-//list of names generated at listofrandomnames.com
-var contacts = ["Archie Reeb", "Marc Flavell", "Kasey Burr", "Katharyn Lanford", "Sharilyn Krohn", "Eda Brinkmann", "Neida Stlouis", "Ranee Maltby", "Tod Bottomley","Margit Mazzola"];
 
 /*https://stackoverflow.com/questions/20060915/javascript-how-do-you-set-the-value-of-a-button-with-an-element-from-an-array referenced to make this function */
 function listContacts(){
+    //Generate a list of contacts
+    //list of names generated at listofrandomnames.com
+    var contacts = ["Archie Reeb", "Marc Flavell", "Kasey Burr", "Katharyn Lanford", "Sharilyn Krohn", "Eda Brinkmann", "Neida Stlouis", "Ranee Maltby", "Tod Bottomley","Margit Mazzola"];
+
     for(var i=0; i < contacts.length; i++){
-        $("contactsContent").write("<button class='contactsList pure-button' value='" + contacts[i] + "'>");
+        $("#contactsContent").write("<button class='contactsList pure-button' value='" + contacts[i] + "'>");
     }
 };
