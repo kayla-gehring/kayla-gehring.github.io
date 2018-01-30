@@ -51,7 +51,10 @@ function listContacts(){
     //list of names generated at listofrandomnames.com
     var contacts = ["Archie Reeb", "Marc Flavell", "Kasey Burr", "Katharyn Lanford", "Sharilyn Krohn", "Eda Brinkmann", "Neida Stlouis", "Ranee Maltby", "Tod Bottomley","Margit Mazzola"];
 
-    for(var i=0; i < contacts.length; i++){
-        $("#contactsContent").write("<button class='contactsList pure-button' value='" + contacts[i] + "'>");
+    for(var i=0; i<contacts.length; i++){
+        $("#contactsContent").write("<div>");
+        $("#contactsContent").write("<button class='contactsList pure-button' value='contact'" + i + "'>");
+        $("#contactsContent").write(contacts[i] + "</button>");
+        $("#contactsContent").write("</div>");
     }
 };
