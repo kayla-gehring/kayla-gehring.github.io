@@ -9,7 +9,6 @@ $(document).ready(function() { //do this when the document is loaded
     $("#dialerContent").show(); //show the HTML element with ID "dialer"
     $("#contactsContent").hide(); //hide the element with ID "contacts"
     $("#addContent").hide(); //hide the element with ID "add"
-
 });
 
 

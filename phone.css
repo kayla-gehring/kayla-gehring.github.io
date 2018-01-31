@@ -35,7 +35,7 @@ button { background: gray; color: black; width: 150px; }
 /* make all tags with the "add-label" class name have bold text */
 .add-label { font-weight: bold; font-size:150%; }
 
-.add-form { width: 300px; font-size: Large; }
+.add-form { width: 400px; font-size: Large; }
 
 /* make the button with ID "add-reset" red */
 .add-clear { width: 200px; font-size: Large; }
