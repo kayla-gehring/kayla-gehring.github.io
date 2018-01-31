@@ -16,7 +16,7 @@ button { background: gray; color: black; width: 150px; }
 .number-buttons { margin-left: 1px; margin-top: 1px; font-size: Large; text-align: center; color: black; background: silver; width: 135px; height: 100px; }
 
 /*dialer input box and label*/
-#dialer-box-label {font-size: Large; font-weight: bold; }
+#dialer-box-label {font-size:175%; font-weight: bold; }
 #dialer-box {width: 400px; font-size: Large; }
 
 /* Dial and Clear Buttons */
@@ -32,12 +32,12 @@ button { background: gray; color: black; width: 150px; }
 
 /*ADD CONTACT TAB*/
 
-.add-contact-label { font-weight: bold; font-size:175%;}
+.add-contact-label { font-weight: bold; font-size:Large;}
 /* make all tags with the "add-label" class name have bold text */
 .add-label { font-weight: bold; font-size:150%; }
 
 .add-form { width: 300px; font-size: Large; }
 
 /* make the button with ID "add-reset" red */
-.add-clear { width: 100px; margin: 4px; height: 50px; font-size: 150%; }
+.add-clear { font-size: 200%; }
 #add-reset { background: red; }
