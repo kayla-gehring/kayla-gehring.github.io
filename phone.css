@@ -5,12 +5,12 @@ button { background: gray; color: black; width: 150px; }
 .tab-buttons { margin: 0px; }
 
 /* style dialer buttons */
-.number-buttons { margin: 2px; font-size: large; text-align: center; color: black; background: silver; width: 75px; height: 50px; }
+.number-buttons { margin: 1px;  font-size: large; text-align: center; color: black; background: silver; width: 100px; height: 75px; }
 
 /*dialer input box and label*/
-#dialer-box {width: 225px}
+#dialer-box {width: 300px}
 
-.dial-clear { width: 150px; margin: 4px; }
+.dial-clear { width: 150px; margin: 4px; height: 50px; }
 
 /* make all tags with the "add-label" class name have bold text */
 .add-label { font-weight: bold; font-size:150%; }
@@ -18,4 +18,5 @@ button { background: gray; color: black; width: 150px; }
 /* make the button with ID "add-reset" red */
 #add-reset { background: red; }
 
-.contactsList { width: 300px; background: blue; font-size: large; }
+/*style the contacts list buttons*/
+.contactsList { width: 300px; height: 75px; background: aqua ; font-size: large; }

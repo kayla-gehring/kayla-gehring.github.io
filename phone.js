@@ -55,7 +55,7 @@ function listContacts(){
 
     for(var i=0; i<contacts.length; i++){
         $("#contactsContent").append("<div>");
-        $("#contactsContent").append("<button class='contactsList pure-button' value='contact'" + i + "'>");
+        $("#contactsContent").append("<button class='contactsList pure-button'>");
         $("#contactsContent").append(contacts[i] + "</button>");
         $("#contactsContent").append("</div>");
     }
