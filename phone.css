@@ -4,10 +4,13 @@ button { background: gray; color: black; width: 150px; }
 .tab-buttons { margin: 0px; }
 
 /* style dialer buttons */
-.number-buttons { margin: 2px; font-size: large; text-align: center; color: black; background: silver; width: 100px; }
+.number-buttons { margin: 2px; font-size: large; text-align: center; color: black; background: silver; width: 75px height:50; }
 
-/* make all tags with the "cool" class name have blue text */
-.cool { color: blue; }
+/*dialer input box and label*/
+#dialer-box {width: 225px};
 
-/* make the button with ID "delete" red */
-#delete { background: red; }
+/* make all tags with the "add-label" class name have bold text */
+.cool { font-weight: bold; font-size:150%; }
+
+/* make the button with ID "add-reset" red */
+#add-reset { background: red; }
