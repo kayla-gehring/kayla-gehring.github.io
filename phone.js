@@ -4,13 +4,12 @@
 /* TAB CONTROL */
 
 
-//Hide all but the default tab and make button active
+//Hide all but the default tab
 $(document).ready(function() { //do this when the document is loaded
     $("#dialerContent").show(); //show the HTML element with ID "dialer"
     $("#contactsContent").hide(); //hide the element with ID "contacts"
     $("#addContent").hide(); //hide the element with ID "add"
 
-    //$("#dialer").addclass("pure-button-active");
 });
 
 
@@ -19,10 +18,6 @@ $("#dialer").click(function() { //when "dialer" is clicked
     $("#dialerContent").show(); //show dial element
     $("#contactsContent").hide(); //hide other elements
     $("#addContent").hide();
-
-    /*$("#dialer").addclass("pure-button-active");
-    $("#contacts").removeclass("pure-button-active");
-    $("#add").removeclass("pure-button-active");*/
 });
 
 //When the contacts button is clicked, hide the dialer and add contact tabs
@@ -31,10 +26,6 @@ $("#contacts").click(function() { //when "contacts" is clicked
     $("#contactsContent").show();
     $("#addContent").hide();
 
-     /*$("#contacts").addclass("pure-button-active");
-    $("#dialer").removeclass("pure-button-active");
-    $("#add").removeclass("pure-button-active");
-    //also load buttons from a list of contacts*/
     listContacts();
 });
 
@@ -44,9 +35,6 @@ $("#add").click(function() { //when "add contacts" is clicked
     $("#contactsContent").hide();
     $("#addContent").show();
 
-   /* $("#add").addclass("pure-button-active");
-    $("#contacts").removeclass("pure-button-active");
-    $("#dialer").removeclass("pure-button-active");*/
 });
 
 
@@ -62,7 +50,7 @@ function inputNum(element){
 function listContacts(){
     //Generate a list of contacts
     //list of names generated at listofrandomnames.com
-    var contacts = [Archie Reeb, "Marc Flavell", "Kasey Burr", "Katharyn Lanford", "Sharilyn Krohn", "Eda Brinkmann", "Neida Stlouis", "Ranee Maltby", "Tod Bottomley","Margit Mazzola"];
+    var contacts = ["Archie Reeb", "Marc Flavell", "Kasey Burr", "Katharyn Lanford", "Sharilyn Krohn", "Eda Brinkmann", "Neida Stlouis", "Ranee Maltby", "Tod Bottomley","Margit Mazzola"];
     $("#contactsContent").html("<strong style='font-size: 150%'>Contact List</strong>")
 
     for(var i=0; i<contacts.length; i++){

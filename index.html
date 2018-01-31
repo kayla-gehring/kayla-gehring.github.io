@@ -58,9 +58,11 @@
         </div>
 
 
-          <!-- Action Buttons -->
-          <button class="tabContents action-buttons pure-button pure-button-primary" id="dial-button">Dial Number</button>
-          <button class="tabContents action-buttons pure-button pure-button-primary" id="clear-button">Clear Input</button>
+        <!-- Action Buttons -->
+        <div class="dialer-content">
+          <button class="dial-clear tabContents action-buttons pure-button pure-button-primary" id="dial-button">Dial Number</button>
+          <button class="dial-clear tabContents action-buttons pure-button pure-button-primary" id="clear-button">Clear Input</button>
+        </div>
 
 
       </div>
@@ -76,20 +78,20 @@
       <!-- text box -->
       <form class="pure-form pure-form-stacked">
         <div class="pure-control-group">
-          <label for="add-name">Name</label>
+          <label for="add-name" class="add-label">Name</label>
           <input class="add-form" id="add-name" type="text" placeholder="John Smith">
         </div>
         <div class="pure-control-group">
-          <label for="add-number">Phone Number</label>
+          <label class="add-label" for="add-number">Phone Number</label>
           <input class="add-form" id="add-number" type="text" placeholder="123-456-7890">
         </div>
         <div class="pure-control-group">
-          <label for="add-email">Email Address</label>
+          <label for="add-email" class="add-label">Email Address</label>
           <input class="add-form" id="add-email" type="text" placeholder="john.smith@domain.com">
         </div>
         <div class="pure-control-group">
-          <button type="submit" value="Submit" id="add-submit">Create Contact</button>
-          <button type="reset" value="Reset" id="add-reset">Reset</button>
+          <button class="pure-button pure-button-active" type="submit" value="Submit" id="add-submit">Create Contact</button>
+          <button class="pure-button pure-button-active" type="reset" value="Reset" id="add-reset">Reset</button>
           </div>
       </form>
 

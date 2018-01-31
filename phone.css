@@ -8,7 +8,9 @@ button { background: gray; color: black; width: 150px; }
 .number-buttons { margin: 2px; font-size: large; text-align: center; color: black; background: silver; width: 75px; height: 50px; }
 
 /*dialer input box and label*/
-#dialer-box {width: 225px};
+#dialer-box {width: 225px}
+
+.dial-clear { width: 150px; margin: 4px; }
 
 /* make all tags with the "add-label" class name have bold text */
 .add-label { font-weight: bold; font-size:150%; }
