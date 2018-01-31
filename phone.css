@@ -15,3 +15,5 @@ button { background: gray; color: black; width: 150px; }
 
 /* make the button with ID "add-reset" red */
 #add-reset { background: red; }
+
+.contactsList { width: 300px; background: blue; font-size: large; }

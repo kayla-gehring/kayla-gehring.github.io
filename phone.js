@@ -62,8 +62,8 @@ function inputNum(element){
 function listContacts(){
     //Generate a list of contacts
     //list of names generated at listofrandomnames.com
-    var contacts = ["Archie Reeb", "Marc Flavell", "Kasey Burr", "Katharyn Lanford", "Sharilyn Krohn", "Eda Brinkmann", "Neida Stlouis", "Ranee Maltby", "Tod Bottomley","Margit Mazzola"];
-    $("#contactsContent").html("in function");
+    var contacts = [Archie Reeb, "Marc Flavell", "Kasey Burr", "Katharyn Lanford", "Sharilyn Krohn", "Eda Brinkmann", "Neida Stlouis", "Ranee Maltby", "Tod Bottomley","Margit Mazzola"];
+
 
     for(var i=0; i<contacts.length; i++){
         $("#contactsContent").append("<div>");
