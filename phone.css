@@ -7,15 +7,16 @@ button { background: gray; color: black; width: 150px; }
 
 /* make all divs in class tabContents centered under tab bar */
 #contents { width: 450px; }
-.tabContents { left-margin: auto; right-margin: auto; width: 450px; }
+.dialerForm { left-margin: auto; right-margin: auto; width: 405px; }
+
 
 /*DIALER TAB */
 
 /* style dialer buttons */
-.number-buttons { font-size: Large; text-align: center; color: black; background: silver; width: 135px; height: 100px; }
+.number-buttons { margin-left: 1px; margin-top: 1px; font-size: Large; text-align: center; color: black; background: silver; width: 135px; height: 100px; }
 
 /*dialer input box and label*/
-#dialer-box {width: 400px; font-size: Large; }
+#dialer-box {width: 400px; font-size: Large; font-weight: bold; }
 
 /* Dial and Clear Buttons */
 .dial-clear { width: 195px; margin: 8px; height: 85px; font-size: Large; }
@@ -26,13 +27,13 @@ button { background: gray; color: black; width: 150px; }
 /*CONTACT LIST TAB*/
 
 /*style the contacts list buttons*/
-.contactsList { width: 150px; height: 50px; background: white ; outline-color:gray; color: navy; font-size: Large; }
+.contactsList { width: 400px; height: 50px; background: white ; outline-color:gray; color: navy; font-size: Large; }
 
 /*ADD CONTACT TAB*/
 
 /* make all tags with the "add-label" class name have bold text */
 .add-label { font-weight: bold; font-size:150%; }
 
-
 /* make the button with ID "add-reset" red */
+.add-clear { width: 100px; margin: 4px; height: 50px; font-size: Large; }
 #add-reset { background: red; }

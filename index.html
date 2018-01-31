@@ -27,55 +27,46 @@
 
     </div>
     <!-- Tab contents -->
-    <div class="tabContents" id="contents">
+    <div class="tabContents-all" id="contents">
 
       <!-- Tab 1 Contents: Dialer -->
       <div class="tabContents" id="dialerContent">
         <form class="pure-form pure-form-stacked" id="dialerForm">
 
           <!-- Dial Input Box -->
-          <label for="dialer-box" id="dialer-box-label">
-            <strong style="font-size: 150%">Enter Phone Number</strong>
-          </label>
+          <label for="dialer-box" id="dialer-box-label">Enter Phone Number</label>
           <input type="text" class="dialer-content" id="dialer-box" placeholder="123-456-7890" value="">
-          </form>
 
         <!-- Dial Buttons -->
         <div class="dialer-content" id="buttons1-3">
-          <button type="button" form="dialerForm" class="number-buttons pure-button" id="b1" value="1" onclick="inputNum(this)">1</button>
-          <button type="button" form="dialerForm" class="number-buttons pure-button" id="b2" value="2" onclick="inputNum(this)">2</button>
-          <button type="button" form="dialerForm" class="number-buttons pure-button" id="b3" value="3" onclick="inputNum(this)">3</button>
+          <button type="button" class="number-buttons pure-button" value="1" onclick="inputNum(this)">1</button>
+          <button type="button" class="number-buttons pure-button" value="2" onclick="inputNum(this)">2</button>
+          <button type="button" class="number-buttons pure-button" value="3" onclick="inputNum(this)">3</button>
         </div>
         <div class="dialer-content" id="buttons4-6">
-          <button type="button" form="dialerForm" class="number-buttons pure-button" id="b4" value="4" onclick="inputNum(this)">4</button>
-          <button type="button" form="dialerForm" class="number-buttons pure-button" id="b5" value="5" onclick="inputNum(this)">5</button>
-          <button type="button" form="dialerForm" class="number-buttons pure-button" id="b6" value="6" onclick="inputNum(this)">6</button>
+          <button type="button" class="number-buttons pure-button" value="4" onclick="inputNum(this)">4</button>
+          <button type="button" class="number-buttons pure-button" value="5" onclick="inputNum(this)">5</button>
+          <button type="button" class="number-buttons pure-button" value="6" onclick="inputNum(this)">6</button>
         </div>
         <div class="dialer-content" id="buttons*0#">
-          <button type="button" form="dialerForm" class="number-buttons pure-button" id="b*" value="*" onclick="inputNum(this)">*</button>
-          <button type="button" form="dialerForm" class="number-buttons pure-button" id="b0" value="0" onclick="inputNum(this)">0</button>
-          <button type="button" form="dialerForm" class="number-buttons pure-button" id="b#" value="#" onclick="inputNum(this)">#</button>
+          <button type="button" class="number-buttons pure-button" value="*" onclick="inputNum(this)">*</button>
+          <button type="button" class="number-buttons pure-button" value="0" onclick="inputNum(this)">0</button>
+          <button type="button" class="number-buttons pure-button" value="#" onclick="inputNum(this)">#</button>
         </div>
-
-
         <!-- Action Buttons -->
         <div class="dialer-content">
-          <button type="submit" form="dialerForm" class="dial-clear tabContents action-buttons pure-button pure-button-primary" id="dial-button">Dial Number</button>
-          <button type="clear" form="dialerForm" class="dial-clear tabContents action-buttons pure-button pure-button-primary" id="clear-button">Clear Input</button>
+          <button type="submit" class="dial-clear pure-button pure-button-primary" id="dial-button">Dial Number</button>
+          <button type="clear" form="dialerForm" class="dial-clear pure-button pure-button-primary" id="clear-button">Clear Input</button>
         </div>
-
-
+        </form>
       </div>
 
       <!-- Tab 2 Contents: Contact List -->
-      <div class="tabContents" id="contactsContent">
-        Contact List
-
-      </div>
+      <div class="tabContents" id="contactsContent">Contact List</div>
+      <!-- Contact buttons added using javascript -->
 
       <!-- Tab 3 Contents: Add Contact Form -->
       <div class="tabContents" id="addContent">
-      <!-- text box -->
       <form class="pure-form pure-form-stacked">
         <div class="pure-control-group">
           <label for="add-name" class="add-label">Name</label>
@@ -104,7 +95,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Reference to JS file -->
     <script src="phone.js"></script>
-
 
 
   </body>
