@@ -63,7 +63,7 @@ function listContacts(){
     //Generate a list of contacts
     //list of names generated at listofrandomnames.com
     var contacts = [Archie Reeb, "Marc Flavell", "Kasey Burr", "Katharyn Lanford", "Sharilyn Krohn", "Eda Brinkmann", "Neida Stlouis", "Ranee Maltby", "Tod Bottomley","Margit Mazzola"];
-
+    $("#contactsContent").html("<strong style='font-size: 150%'>Contact List</strong>")
 
     for(var i=0; i<contacts.length; i++){
         $("#contactsContent").append("<div>");
