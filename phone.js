@@ -4,9 +4,10 @@
 /* TAB CONTROL */
 
 
-//Hide all but the default tab
+//Hide all but the default tab and change tab colors
 $(document).ready(function() { //do this when the document is loaded
     $("#dialerContent").show(); //show the HTML element with ID "dialer"
+    $("#dialerContent").css('color', 'white'); //change the active tab to white
     $("#contactsContent").hide(); //hide the element with ID "contacts"
     $("#addContent").hide(); //hide the element with ID "add"
 
@@ -16,6 +17,7 @@ $(document).ready(function() { //do this when the document is loaded
 //When the dialer button is clicked, hide the contacts and add contact tabs
 $("#dialer").click(function() { //when "dialer" is clicked
     $("#dialerContent").show(); //show dial element
+    $("#dialerContent").css('color', 'white'); //change the active tab to white
     $("#contactsContent").hide(); //hide other elements
     $("#addContent").hide();
 });
@@ -23,6 +25,7 @@ $("#dialer").click(function() { //when "dialer" is clicked
 //When the contacts button is clicked, hide the dialer and add contact tabs
 $("#contacts").click(function() { //when "contacts" is clicked
     $("#dialerContent").hide();
+    $("#dialerContent").css('color', 'gray'); //change the inactive tabs to gray
     $("#contactsContent").show();
     $("#addContent").hide();
 
@@ -32,6 +35,7 @@ $("#contacts").click(function() { //when "contacts" is clicked
 //When the add contact button is clicked, hide the contacts and dialer tabs
 $("#add").click(function() { //when "add contacts" is clicked
     $("#dialerContent").hide(); //hide dial element
+    $("#dialerContent").css('color', 'gray'); //change the inactive tabs to gray
     $("#contactsContent").hide();
     $("#addContent").show();
 
