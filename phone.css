@@ -16,7 +16,6 @@ button { background: gray; color: black; width: 150px; }
 .number-buttons { margin-left: 1px; margin-top: 1px; font-size: Large; text-align: center; color: black; background: silver; width: 135px; height: 100px; }
 
 /*dialer input box and label*/
-#dialer-box-label {font-size:175%; font-weight: bold; color: black; }
 #dialer-box {width: 400px; font-size: Large; }
 
 /* Dial and Clear Buttons */
