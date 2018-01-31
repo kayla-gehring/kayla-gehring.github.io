@@ -39,5 +39,5 @@ button { background: gray; color: black; width: 150px; }
 .add-form { width: 300px; font-size: Large; }
 
 /* make the button with ID "add-reset" red */
-.add-clear { font-size: 200%; }
+.add-clear { font-size: Large; }
 #add-reset { background: red; }
