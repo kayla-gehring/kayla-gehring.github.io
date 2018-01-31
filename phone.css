@@ -1,6 +1,7 @@
 /* make all buttons 20x40 pixels with black text, gray background, 10 pixel margin */
 button { background: gray; color: black; width: 150px; }
-/* make all buttons in class tab-buttons have no margin */
+
+/* make all buttons in class tab-buttons have no margin*/
 .tab-buttons { margin: 0px; }
 
 /* style dialer buttons */
